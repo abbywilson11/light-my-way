@@ -1,11 +1,13 @@
 .navbar {
-  background-color: #0e243d; /* soft teal background */
+  height: 60px;
+  background-color: #0e243d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 30px;
-  flex-wrap: wrap;
+  padding: 20px 20px; 
+  overflow: hidden; /* PREVENTS navbar from growing */
 }
+
 
 /* Left section (logo + name) */
 .navbar-left {
@@ -15,8 +17,9 @@
 }
 
 .logo {
-  width: 100px;
+  width: 75px;
   height: auto;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -26,7 +29,7 @@
 }
 
 .logo-text strong {
-  font-size: 16px;
+  font-size: 25px;
   display: block;
 }
 
