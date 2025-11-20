@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #d3f0ec; /* soft teal background */
+  background-color: #0e243d; /* soft teal background */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@
 .logo-text {
   font-size: 14px;
   line-height: 1.2;
-  color: #222;
+  color: #ffffff;
 }
 
 .logo-text strong {

@@ -1,4 +1,5 @@
 import "./Home.css";
+import { FiSearch } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -12,9 +13,8 @@ export default function Home() {
 
       {/* SEARCH BAR */}
       <div className="search-bar">
-        <i className="search-icon">🔍</i>
+        <FiSearch className="search-icon" />
         <input type="text" placeholder="Search map" />
-        <i className="mic-icon">🎤</i>
       </div>
 
     </div>
