@@ -6,9 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   border-top: 2px solid #0e243d;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: static;
 }
 
 .footer-btn {

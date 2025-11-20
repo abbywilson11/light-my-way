@@ -19,7 +19,7 @@ function App() {
             <Route path="/safety" element={<SafetyTips />} />
           </Routes>
         </div>
-
+        
         <Footer />
       </div>
     </Router>

@@ -1,22 +1,22 @@
-import "./Home.css";
 import { FiSearch } from "react-icons/fi";
+import "./Home.css";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="home-page">
-
-      {/* MAP SECTION */}
-      <div className="map-container">
-        <img src="/map-image.png" alt="map" /> 
-        {/* replace with your map component if needed */}
+    <div className="home-wrapper">
+      <div className="home-content">
+        {/* Put your map or homepage content here */}
       </div>
 
-      {/* SEARCH BAR */}
-      <div className="search-bar">
+      {/* Search bar at bottom above footer */}
+      <div className="search-bar-container">
         <FiSearch className="search-icon" />
-        <input type="text" placeholder="Search map" />
+        <input
+          type="text"
+          placeholder="Search location..."
+          className="search-input"
+        />
       </div>
-
     </div>
   );
 }
