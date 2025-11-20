@@ -1,20 +1,18 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Make the whole app fill the screen */
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Parent wrapper: column layout */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* full viewport */
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Middle section expands automatically */
+.page-content {
+  flex: 1; 
+  overflow-y: auto; /* prevents stretching weirdly */
 }
