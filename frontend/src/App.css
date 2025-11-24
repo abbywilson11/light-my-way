@@ -15,5 +15,5 @@ html, body, #root {
   flex: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* prevents inner scrolling */
+  overflow-y: auto; /* prevents inner scrolling */
 }
