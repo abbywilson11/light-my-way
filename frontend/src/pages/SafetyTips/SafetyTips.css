@@ -45,9 +45,18 @@ overflow-y: auto;  /* allow scrolling */
   font-weight: 600;
 }
 
+.section-subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #fddc5c;
+  font-weight: 500;
+}
+
 /* Section paragraph */
 .section-text {
   line-height: 1.6;
+    color: #333333;
+    font-size: 16px;
 }
 
 /* Optional list styling */
