@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  height: 100%;
+  height: 50%;
   background-color: #003169; 
+  padding-bottom: 80px; /* space for search bar */
 }
 
 .home-content {
