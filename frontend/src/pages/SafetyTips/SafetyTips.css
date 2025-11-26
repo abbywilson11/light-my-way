@@ -31,7 +31,7 @@
 
 /* Section block */
 .safety-section {
-  background: #f7fafc; /* soft grey-blue */
+  background: #9bd2f8; /* soft grey-blue */
   padding: 20px 25px;
   margin-bottom: 20px;
   border-radius: 12px;
@@ -41,7 +41,7 @@
 /* Section header */
 .section-title {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 750;
   margin-bottom: 12px;
   color: #0e243d;
   margin-top: 5px;
@@ -50,9 +50,10 @@
 /* Subsection header */
 .section-subtitle {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 750;
   margin-bottom: 8px;
-  color: #fddc5c;
+  color: #003169;
+  
 }
 
 /* Section paragraph & list text */
